@@ -1,0 +1,86 @@
+body {
+  background: rgb(202, 195, 195);
+  font-size: large;
+  font-weight: bold;
+}
+
+.container {
+  background: rgb(145, 199, 212);
+  width: 1400px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 20px 0 0 0;
+  border: solid turquoise;
+  margin: auto;
+}
+
+.container > .text {
+  text-align: center;
+ 
+}
+
+#board {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+#board li {
+  background: rgb(248, 247, 247);
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 40px auto;
+  line-height: 150px;
+  font-size: 100px;
+}
+
+.con {
+  display: flex;
+  align-items: center;
+
+}
+
+.button {
+  background: white;
+  width: 200px;
+  height: 60px;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 10px;
+  border: solid turquoise;
+  user-select: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.save {
+  background: white;
+  width: 200px;
+  height: 60px;
+  margin: auto;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+  border: solid turquoise;
+  user-select: none;
+}
+
+.inactive {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+
+.board2 {
+  list-style: none;
+
+}
+.board2 > li {
+  padding-top: 10px;
+}
+
