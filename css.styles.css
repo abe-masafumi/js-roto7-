@@ -83,4 +83,7 @@ body {
 .board2 > li {
   padding-top: 10px;
 }
+/* li { */
+  /* display: flex; */
+/* } */
 

@@ -64,8 +64,11 @@
     console.log(saveNum);
 
    const listNum = document.createElement('li');
+  //  const del = document.createElement('div');
+  //  del.textContent = "X";
     listNum.textContent = `${saveNum[0]} - ${saveNum[1]} - ${saveNum[2]} - ${saveNum[3]} - ${saveNum[4]} - ${saveNum[5]} - ${saveNum[6]} ------>> ${saveNum[7]}`;
     board2.insertBefore(listNum, board2.children[0]);
+    // listNum.appendChild(del);
     save.classList.add('inactive');
     // カウントの数字
     test["nomber"] = saveNum;
@@ -98,10 +101,6 @@
 
   
   // for (let i=0; i < 20; i++) {
-  // localStorage.removeItem(i);
-  // localStorage.removeItem("testes");
-  // localStorage.removeItem("keykey");
-  // localStorage.removeItem("null");
   // localStorage.clear();
 
   // }
